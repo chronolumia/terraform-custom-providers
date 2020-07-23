@@ -1,5 +1,9 @@
 terraform {
     required_providers {
+        nsxt = {
+            source  = "terraform-providers/nsxt"
+            version = "~> 2.1.0"
+        }
         infoblox = {
             source  = "terraform-providers/infoblox"
             version = "~> 1.0.0"
